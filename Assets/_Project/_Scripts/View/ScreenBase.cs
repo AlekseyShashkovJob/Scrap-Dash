@@ -1,15 +1,15 @@
 using UnityEngine;
 
-namespace View.UI
+namespace UI.Screens
 {
-    public abstract class UIScreen : MonoBehaviour
+    public abstract class ScreenBase : MonoBehaviour
     {
-        public virtual void StartScreen()
+        public virtual void Show()
         {
             gameObject.SetActive(true);
         }
 
-        public void CloseScreen()
+        public void Hide()
         {
             gameObject.SetActive(false);
         }

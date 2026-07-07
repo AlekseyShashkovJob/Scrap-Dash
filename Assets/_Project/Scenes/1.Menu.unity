@@ -649,7 +649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c107c01ea3e586642aabd5b6ee31cc2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loading: {fileID: 3172059732274734887}
+  _curtain: {fileID: 3172059732274734887}
 --- !u!1 &225669990
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,13 +679,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dad36da9bab73fd40bf64e91f5db875d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _back: {fileID: 1282949296}
-  _sound: {fileID: 1687595763}
-  _vibro: {fileID: 1123065816}
-  _soundImage: {fileID: 1687595762}
-  _vibroImage: {fileID: 1123065812}
-  _spriteOn: {fileID: 21300000, guid: 542afb384e840be4aa95181633d8f0cd, type: 3}
-  _spriteOff: {fileID: 21300000, guid: 7a6d4cf4518ce6141872844b8d7ceb45, type: 3}
+  _backBtn: {fileID: 1282949296}
+  _audioBtn: {fileID: 1687595763}
+  _hapticsBtn: {fileID: 1123065816}
+  _audioIcon: {fileID: 1687595762}
+  _hapticsIcon: {fileID: 1123065812}
+  _enabledSprite: {fileID: 21300000, guid: 542afb384e840be4aa95181633d8f0cd, type: 3}
+  _disabledSprite: {fileID: 21300000, guid: 7a6d4cf4518ce6141872844b8d7ceb45, type: 3}
 --- !u!224 &225669992
 RectTransform:
   m_ObjectHideFlags: 0
@@ -798,7 +798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &340708247
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &363796282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,9 +1222,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ebcaaf5b114ca84588840068abd1bac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gameMenu: {fileID: 1810130674}
-  _internet: {fileID: 232649124737914529}
-  _loading: {fileID: 3172059732274734887}
+  _homeScreen: {fileID: 1810130674}
+  _offlineNotice: {fileID: 232649124737914529}
+  _splash: {fileID: 3172059732274734887}
 --- !u!1 &441528376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!114 &522191768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,7 +1811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &609218125
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,7 +1973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &850806407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,7 +2337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &925523230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2427,7 +2427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &991219419
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,7 +2479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!114 &991219422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2682,7 +2682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1123065811
 GameObject:
   m_ObjectHideFlags: 0
@@ -2816,7 +2816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1149243585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2868,7 +2868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!114 &1149243588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3208,7 +3208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1270571973
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,7 +3417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1348370814
 GameObject:
   m_ObjectHideFlags: 0
@@ -3450,7 +3450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!114 &1348370816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3641,7 +3641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1484089442
 GameObject:
   m_ObjectHideFlags: 0
@@ -3775,7 +3775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1500926328
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,7 +3909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1509648437
 GameObject:
   m_ObjectHideFlags: 0
@@ -4180,7 +4180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1649938414
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,7 +4270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1687595758
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,7 +4404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &1791827574
 GameObject:
   m_ObjectHideFlags: 0
@@ -4597,17 +4597,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec23fcefbdb7fe341a722a77486033ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _optionsScreen: {fileID: 225669991}
-  _privacyScreen: {fileID: 2771372666570974855}
-  _levelsScreen: {fileID: 358889874198061137}
-  _leaderboardScreen: {fileID: 2362413240523177477}
-  _sceneLoader: {fileID: 152519173}
-  _startGame: {fileID: 7216980912326151940}
-  _settings: {fileID: 7216980913602211547}
-  _privacy: {fileID: 1149243587}
-  _privacySmall: {fileID: 1528033365}
-  _levels: {fileID: 7216980913776153316}
-  _leaderboard: {fileID: 991219421}
+  _preferencesScreen: {fileID: 225669991}
+  _policyScreen: {fileID: 2771372666570974855}
+  _stageSelectionScreen: {fileID: 358889874198061137}
+  _rankingScreen: {fileID: 2362413240523177477}
+  _navigator: {fileID: 152519173}
+  _playBtn: {fileID: 7216980912326151940}
+  _prefsBtn: {fileID: 7216980913602211547}
+  _policyBtn: {fileID: 1149243587}
+  _policyAltBtn: {fileID: 1528033365}
+  _stagesBtn: {fileID: 7216980913776153316}
+  _rankingBtn: {fileID: 991219421}
 --- !u!1 &1850405136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5345,11 +5345,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43d23a715f8859c438d08485ab9aa014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneLoader: {fileID: 152519173}
-  _backPortrait: {fileID: 1484089447}
-  _backLandscape: {fileID: 1500926333}
-  _backgroundPortrait: {fileID: 11450015600120346}
-  _backgroundLandscape: {fileID: 3557268666429037552}
+  _navigator: {fileID: 152519173}
+  _retryPortrait: {fileID: 1484089447}
+  _retryLandscape: {fileID: 1500926333}
+  _bgPortrait: {fileID: 11450015600120346}
+  _bgLandscape: {fileID: 3557268666429037552}
 --- !u!114 &358889874198061137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5362,69 +5362,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615ea4a9343c10f44b375027f4d0eb83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sceneLoader: {fileID: 152519173}
-  _levelButtons:
+  _navigator: {fileID: 152519173}
+  _cells:
   - _button: {fileID: 5407867986959909596}
-    _buttonText: {fileID: 1791827577}
-    _buttonImage: {fileID: 7922496148209516934}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 1791827577}
+    _background: {fileID: 7922496148209516934}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 645365882}
-    _buttonText: {fileID: 850806410}
-    _buttonImage: {fileID: 645365880}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 850806410}
+    _background: {fileID: 645365880}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 893652199}
-    _buttonText: {fileID: 1509648440}
-    _buttonImage: {fileID: 893652197}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 1509648440}
+    _background: {fileID: 893652197}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 1417156006}
-    _buttonText: {fileID: 1946059112}
-    _buttonImage: {fileID: 1417156004}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 1946059112}
+    _background: {fileID: 1417156004}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 1089836249}
-    _buttonText: {fileID: 570810740}
-    _buttonImage: {fileID: 1089836247}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 570810740}
+    _background: {fileID: 1089836247}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 1245557655}
-    _buttonText: {fileID: 877722894}
-    _buttonImage: {fileID: 1245557653}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 877722894}
+    _background: {fileID: 1245557653}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 340708251}
-    _buttonText: {fileID: 118352833}
-    _buttonImage: {fileID: 340708249}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 118352833}
+    _background: {fileID: 340708249}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 302879693}
-    _buttonText: {fileID: 2007687826}
-    _buttonImage: {fileID: 302879691}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 2007687826}
+    _background: {fileID: 302879691}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 441528380}
-    _buttonText: {fileID: 1210824652}
-    _buttonImage: {fileID: 441528378}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 1210824652}
+    _background: {fileID: 441528378}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 925523234}
-    _buttonText: {fileID: 363796285}
-    _buttonImage: {fileID: 925523232}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 363796285}
+    _background: {fileID: 925523232}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 597567174}
-    _buttonText: {fileID: 124719651}
-    _buttonImage: {fileID: 597567172}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 124719651}
+    _background: {fileID: 597567172}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
   - _button: {fileID: 1649938418}
-    _buttonText: {fileID: 89553468}
-    _buttonImage: {fileID: 1649938416}
-    _unlockedSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
+    _label: {fileID: 89553468}
+    _background: {fileID: 1649938416}
+    _availableSprite: {fileID: 21300000, guid: cd9287e1a903db5438c861131af11ba5, type: 3}
     _lockedSprite: {fileID: 21300000, guid: aec8e04ed4fa02348a1acf2eb663f5f2, type: 3}
-  _back: {fileID: 1348370815}
+  _backBtn: {fileID: 1348370815}
 --- !u!1 &824904267010616717
 GameObject:
   m_ObjectHideFlags: 0
@@ -5855,7 +5855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b852a7a3c156946994925144075edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::View.UI.Menu.LeaderboardScreen
-  _back: {fileID: 8116286499121528300}
+  _backBtn: {fileID: 8116286499121528300}
 --- !u!222 &2484783141980548354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5901,7 +5901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4abb5c4a2e60a384ba8d181478060983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _back: {fileID: 522191767}
+  _backBtn: {fileID: 522191767}
 --- !u!114 &3152638656812318694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6143,8 +6143,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f697fd45ca16e41a5e92153a6758c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _musicClip: {fileID: 8300000, guid: d739e6720f6fcc741bb9e46fe2af1ff8, type: 3}
-  _fadeDuration: 0.6
+  _track: {fileID: 8300000, guid: d739e6720f6fcc741bb9e46fe2af1ff8, type: 3}
+  _crossfadeTime: 0.5
 --- !u!224 &4742025892694187456
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6263,7 +6263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!114 &5720993823635298155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6677,7 +6677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!222 &7216980912326151941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6854,7 +6854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!1 &7216980913602211550
 GameObject:
   m_ObjectHideFlags: 0
@@ -6945,7 +6945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!222 &7216980913776153317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7040,9 +7040,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f619b913b4cfe4badcac82a32db4e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadingLogo: {fileID: 1866729965789374616}
-  _logoPortrait: {fileID: 824904267010616717}
-  _logoLandscape: {fileID: 3662845104343473709}
+  _floatingElement: {fileID: 1866729965789374616}
+  _portraitVariant: {fileID: 824904267010616717}
+  _landscapeVariant: {fileID: 3662845104343473709}
 --- !u!114 &7445932929378210090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7168,7 +7168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e5af77357a2489b2e7a18d83bf05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _clickSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
+  _tapSound: {fileID: 8300000, guid: e6f533ca70657c04dbca584f0796ee07, type: 3}
 --- !u!224 &8119413384210455345
 RectTransform:
   m_ObjectHideFlags: 0

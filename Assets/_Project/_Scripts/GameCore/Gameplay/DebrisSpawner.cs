@@ -101,29 +101,29 @@ namespace GameCore.Gameplay
 
         private void OnDebrisCaught(Debris debris)
         {
-            Misc.Services.VibroManager.Vibrate();
+            Infrastructure.Platform.HapticFeedback.Trigger();
 
             switch (debris.Type)
             {
                 case DebrisType.Trash:
-                    GameManager.Instance.AddScore(1);
+                    SessionDirector.Instance.AwardPoints(1);
                     break;
 
                 case DebrisType.Helmet:
-                    GameManager.Instance.AddScore(5);
+                    SessionDirector.Instance.AwardPoints(5);
                     break;
 
                 case DebrisType.Drawing:
-                    GameManager.Instance.AddScore(1);
-                    GameManager.Instance.AddBuildingProgress(0.2f);
+                    SessionDirector.Instance.AwardPoints(1);
+                    SessionDirector.Instance.BoostConstruction(0.2f);
                     break;
 
                 case DebrisType.Barrel:
-                    GameManager.Instance.ApplySlowTrap();
+                    SessionDirector.Instance.InflictSlow();
                     break;
 
                 case DebrisType.Bomb:
-                    GameManager.Instance.ApplyBombTrap();
+                    SessionDirector.Instance.InflictExplosion();
                     break;
             }
         }
@@ -133,7 +133,7 @@ namespace GameCore.Gameplay
             if (debris.Type == DebrisType.Barrel || debris.Type == DebrisType.Bomb)
                 return;
 
-            GameManager.Instance.RegisterMiss();
+            SessionDirector.Instance.CountMiss();
         }
     }
 }
