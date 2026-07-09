@@ -25,7 +25,7 @@ namespace UI.Components.Buttons
         {
             base.OnPointerDown(eventData);
 
-            Infrastructure.Platform.SFXPlayer.Instance.PlayOneShot(_tapSound);
+            Infrastructure.Platform.AudioSystem.Instance.PlayEffect(_tapSound);
             transform.localScale *= PressScale;
         }
 
