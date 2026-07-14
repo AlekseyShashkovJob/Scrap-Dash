@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using UI.Components.Buttons;
 using Infrastructure.Navigation;
-using GameCore.Constants;
+using ScrapDash.GameCore.Constants;
 using TMPro;
 
 namespace UI.Screens.MainMenu

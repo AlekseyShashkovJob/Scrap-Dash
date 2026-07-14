@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace GameCore.Gameplay
+namespace ScrapDash.GameCore.Gameplay
 {
     public class TruckInput : MonoBehaviour,
         IPointerDownHandler, IPointerUpHandler, IDragHandler

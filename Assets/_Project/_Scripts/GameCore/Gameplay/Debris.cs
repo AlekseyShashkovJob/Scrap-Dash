@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GameCore.Gameplay
+namespace ScrapDash.GameCore.Gameplay
 {
     [RequireComponent(typeof(Image))]
     [RequireComponent(typeof(BoxCollider2D))]

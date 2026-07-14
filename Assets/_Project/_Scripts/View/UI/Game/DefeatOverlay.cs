@@ -1,4 +1,4 @@
-using GameCore;
+using ScrapDash.GameCore;
 using Infrastructure.Navigation;
 using TMPro;
 using UI.Components.Buttons;

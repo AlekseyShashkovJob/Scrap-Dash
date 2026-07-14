@@ -5,14 +5,10 @@ namespace UI.Screens
     public class AppBootstrapper : MonoBehaviour
     {
         [SerializeField] private ScreenBase _homeScreen;
-        [SerializeField] private GameObject _splash;
 
         private void Start()
         {
             LockPortrait();
-
-            if (_splash != null)
-                _splash.SetActive(false);
 
             _homeScreen.Show();
         }

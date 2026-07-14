@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
-using GameCore;
+using ScrapDash.GameCore;
 
 namespace UI.Screens.Gameplay
 {

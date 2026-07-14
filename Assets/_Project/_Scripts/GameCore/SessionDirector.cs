@@ -1,11 +1,11 @@
 using System;
 using UnityEngine;
-using GameCore.Constants;
-using GameCore.Data;
-using GameCore.Gameplay;
+using ScrapDash.GameCore.Constants;
+using ScrapDash.GameCore.Data;
+using ScrapDash.GameCore.Gameplay;
 using UI.Screens.Gameplay;
 
-namespace GameCore
+namespace ScrapDash.GameCore
 {
     public class SessionDirector : MonoBehaviour
     {

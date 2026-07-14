@@ -1,4 +1,4 @@
-using GameCore;
+using ScrapDash.GameCore;
 using Infrastructure.Navigation;
 using UI.Components.Buttons;
 using UnityEngine;

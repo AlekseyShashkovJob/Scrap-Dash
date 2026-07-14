@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameCore.Gameplay
+namespace ScrapDash.GameCore.Gameplay
 {
     public class DebrisSpawner : MonoBehaviour
     {

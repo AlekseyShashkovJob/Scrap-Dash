@@ -1,4 +1,4 @@
-namespace GameCore.Gameplay
+namespace ScrapDash.GameCore.Gameplay
 {
     public enum DebrisType
     {

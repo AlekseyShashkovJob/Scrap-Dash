@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-namespace GameCore.Gameplay
+namespace ScrapDash.GameCore.Gameplay
 {
     public class Truck : MonoBehaviour
     {

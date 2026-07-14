@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GameCore.Gameplay
+namespace ScrapDash.GameCore.Gameplay
 {
     public class BuildingController : MonoBehaviour
     {

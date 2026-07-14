@@ -1,4 +1,4 @@
-namespace GameCore.Constants
+namespace ScrapDash.GameCore.Constants
 {
     public static class SessionRules
     {

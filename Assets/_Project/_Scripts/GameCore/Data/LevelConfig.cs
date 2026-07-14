@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameCore.Data
+namespace ScrapDash.GameCore.Data
 {
     [CreateAssetMenu(fileName = "LevelConfig", menuName = "Game/Level Config")]
     public class LevelConfig : ScriptableObject

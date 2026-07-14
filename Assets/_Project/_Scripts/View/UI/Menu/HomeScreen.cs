@@ -1,7 +1,7 @@
 using UnityEngine;
 using UI.Components.Buttons;
 using Infrastructure.Navigation;
-using GameCore.Constants;
+using ScrapDash.GameCore.Constants;
 
 namespace UI.Screens.MainMenu
 {
